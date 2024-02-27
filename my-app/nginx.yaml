@@ -54,7 +54,7 @@ metadata:
 spec:
   tls:
     insecureEdgeTerminationPolicy: Redirect
-    termination: Edge
+    termination: edge
   to:
     kind: Service
     name: nginx
